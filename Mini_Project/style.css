@@ -1,0 +1,56 @@
+/* ---- Universal selector: applies to every element ---- */
+* {
+  font-family: "Poppins", Arial, sans-serif;   /* backup fonts if Poppins isn't installed */
+}
+
+/* ---- Element selector: applies to every <body> (just one, but still an element selector) ---- */
+body {
+  background-color: #f4f6f8;
+  text-align: center;
+}
+
+/* ---- Element selector: every <h1> ---- */
+h1 {
+  color: #2c3e50;
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* ---- Element selector: every <h2> ---- */
+h2 {
+  color: #7f8c8d;
+  font-size: 16px;
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+/* ---- Class selector: any element with class="bio" ---- */
+.bio {
+  color: #333333;
+  font-size: 15px;
+  line-height: 1.8;
+  letter-spacing: 0.3px;
+}
+
+/* ---- Class selector: any element with class="tag" ---- */
+.tag {
+  color: #2c3e50;
+  background-color: #ecf0f1;
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+/* ---- Element selector: every <a> link ---- */
+a {
+  color: #2980b9;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* ---- Id selector: the one element with id="main-name" ---- */
+#main-name {
+  color: #e67e22;
+  text-decoration: underline;
+}
